@@ -86,6 +86,7 @@ img {
   }
 
   img {
+    width: 30%;
     height: auto;
   }
 
@@ -97,18 +98,39 @@ img {
   #lezioni .row>.left,
   #lezioni .row>.right {
     width: 100%;
-}
+  }
 
-#lezioni .row>.left{
-  margin-bottom: 20px;
-}
+  #lezioni .row>.left{
+    margin-bottom: 20px;
+  }
 
-#lezioni .row img {
-  /* per centrare orizzontalmente */
-  display: inline-block;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 30%;
-}
+  /* BLOCCO STEPS */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 100%;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central{
+    margin-bottom: 20px;
+  }
+
+  /* BLOCCO PERCHE */
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 0;
+  }
+
+  #why .row img {
+    width: 15%;
+    padding: 25px;    
+  }
+
+  hr{
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
   
 }
